@@ -105,29 +105,19 @@ export default function LoveWebsite() {
   // Quiz Questions (customize these!)
   const quizQuestions = [
     {
-      question: "What was the first movie we watched together?",
-      options: ["The Notebook", "La La Land", "Spirited Away", "Interstellar"],
-      answer: "Spirited Away",
+      question: "What was the first movie genre we watched together?",
+      options: ["Romantic", "Horror", "Action", "Comedy"],
+      answer: "Horror",
     },
     {
       question: "Where did we have our first date?",
-      options: ["Italian Restaurant", "Coffee Shop", "Park Picnic", "Sushi Place"],
-      answer: "Coffee Shop",
+      options: ["14th Street Pizza", "Shahjahan", "English Tea House", "Lit"],
+      answer: "English Tea House",
     },
     {
       question: "What's my favorite thing you cook?",
-      options: ["Pasta", "Pancakes", "Curry", "Tacos"],
-      answer: "Pancakes",
-    },
-    {
-      question: "What's our 'song'?",
-      options: [
-        "Perfect by Ed Sheeran",
-        "All of Me by John Legend",
-        "Thinking Out Loud by Ed Sheeran",
-        "A Thousand Years by Christina Perri",
-      ],
-      answer: "Perfect by Ed Sheeran",
+      options: ["Pasta", "Pancakes", "Noodles", "Rice"],
+      answer: "Pasta",
     },
   ]
 
