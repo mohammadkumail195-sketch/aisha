@@ -75,12 +75,12 @@ export default function LoveWebsite() {
 
   // Photo gallery (replace with your actual photos)
   const photos = [
-    { src: "/placeholder.svg?height=300&width=400", caption: "You smiled here, and I fell a little more in love" },
-    { src: "/placeholder.svg?height=300&width=400", caption: "Your laugh is my favorite sound" },
-    { src: "/placeholder.svg?height=300&width=400", caption: "Our first adventure together" },
-    { src: "/placeholder.svg?height=300&width=400", caption: "Every meal tastes better with you" },
-    { src: "/placeholder.svg?height=300&width=400", caption: "Exploring the world, hand in hand" },
-    { src: "/placeholder.svg?height=300&width=400", caption: "Home is wherever you are" },
+    { src: "/smile.jpg?height=300&width=400", caption: "You smiled here, and I fell a little more in love" },
+    { src: "/laugh.jpg?height=300&width=400", caption: "Your laugh is my favorite sound" },
+    { src: "/first meetup.jpg?height=300&width=400", caption: "Our first meetup together" },
+    { src: "/meal.jpg?height=300&width=400", caption: "Every meal tastes better with you" },
+    { src: "/hand in hand.jpg?height=300&width=400", caption: "Exploring the world, hand in hand" },
+    { src: "/home.jpg?height=300&width=400", caption: "Home is wherever you are" },
   ]
 
   // Love notes
