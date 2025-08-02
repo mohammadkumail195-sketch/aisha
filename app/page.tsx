@@ -27,7 +27,7 @@ export default function LoveWebsite() {
 
   // Calculate days together (customize this date!)
   useEffect(() => {
-    const startDate = new Date("2023-01-15") // Change to your actual start date
+    const startDate = new Date("2023-03-25") // Change to your actual start date
     const today = new Date()
     const diffTime = Math.abs(today.getTime() - startDate.getTime())
     const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24))
@@ -94,17 +94,17 @@ export default function LoveWebsite() {
     {
       title: "Why I Love Your Smile",
       content:
-        "Your smile lights up every room you enter. It's the first thing I fell in love with and the last thing I think about before I sleep.",
+        "Your smile is the best thing i've seen in my life. And the way you get shy while smiling is just so pure 🌸",
     },
     {
       title: "A Letter to Future You",
       content:
-        "Dear Future You, I hope you're reading this years from now, still feeling as loved as you do today. Our love story is just beginning.",
+        "Dear Future Aisha, I hope you're reading this years from now, and it only remind you the good things, not the fights that we had. 🌸",
     },
     {
       title: "Random Tuesday Thoughts",
       content:
-        "It's 2 PM on a Tuesday and I'm thinking about how lucky I am to have you. You make ordinary moments extraordinary.",
+        "It's 4 PM on a Saturday and I'm thinking about how how bad i've treated you at time. But i just want you to know that you make ordinary moments extraordinary. 🌸",
     },
   ]
 
