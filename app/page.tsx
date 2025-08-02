@@ -415,8 +415,8 @@ export default function LoveWebsite() {
         <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-8">Thank You for Being My Everything</h2>
         <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-xl">
           <p className="text-xl text-gray-700 leading-relaxed mb-6 font-serif italic">
-            "I made this little corner of the internet to remind you how deeply you are loved— today, tomorrow, and
-            always. You are my greatest adventure, my safest place, and my most beautiful dream come true."
+            "I made this little corner of the internet to remind you how deeply you are loved, and
+            will always be loved. You are my comfort, my safest place, and my most beautiful dream."
           </p>
           <div className="flex justify-center items-center space-x-2 text-2xl">
             <Heart className="text-red-500 animate-pulse" />
