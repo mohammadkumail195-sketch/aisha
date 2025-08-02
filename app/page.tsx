@@ -54,27 +54,21 @@ export default function LoveWebsite() {
   // Timeline data (customize with your own milestones!)
   const timeline = [
     {
-      date: "January 15, 2023",
+      date: "September 5, 2023",
       title: "The Day We Met",
-      description: "That coffee shop moment when time stood still",
-      emoji: "☕",
+      description: "That moment in the car when we held each other hands and you were so shy",
+      emoji: "😳👉👈",
     },
     {
-      date: "February 14, 2023",
+      date: "September 5, 2023",
       title: "Our First Date",
-      description: "Dinner, laughter, and the beginning of forever",
+      description: "The English tea house was the best moment of my life",
       emoji: "🌹",
     },
     {
-      date: "June 20, 2023",
-      title: "First Trip Together",
-      description: "Beach sunsets and making memories",
-      emoji: "🏖️",
-    },
-    {
-      date: "January 15, 2024",
-      title: "One Year Anniversary",
-      description: "365 days of love and counting",
+      date: "March 25, 2026",
+      title: "3 Year Anniversary",
+      description: "This is an advance reminder for the day of our anniversary",
       emoji: "🎉",
     },
   ]
