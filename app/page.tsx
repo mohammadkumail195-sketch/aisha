@@ -98,7 +98,7 @@ export default function LoveWebsite() {
     {
       title: "Random Tuesday Thoughts",
       content:
-        "It's 4 PM on a Saturday and I'm thinking about how how bad i've treated you at time. But i just want you to know that you make ordinary moments extraordinary. 🌸",
+        "It's 4 PM on a Saturday and I'm thinking about how how bad i've treated you at times. But i just want you to know that you make ordinary moments extraordinary. 🌸",
     },
   ]
 
