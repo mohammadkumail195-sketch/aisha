@@ -57,7 +57,7 @@ export default function LoveWebsite() {
       date: "September 5, 2023",
       title: "The Day We Met",
       description: "That moment in the car when we held each other hands and you were so shy",
-      emoji: "😳👉👈",
+      emoji: "😳",
     },
     {
       date: "September 5, 2023",
