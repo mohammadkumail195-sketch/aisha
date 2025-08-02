@@ -315,7 +315,7 @@ export default function LoveWebsite() {
             <CardContent className="p-8 text-center">
               <Sparkles className="mx-auto mb-4 text-pink-500" size={48} />
               <h3 className="text-2xl font-bold text-gray-800 mb-4">Memory Quiz</h3>
-              <p className="text-gray-600 mb-6">How well do you remember our adventures?</p>
+              <p className="text-gray-600 mb-6">How well do you remember our time together?</p>
               {!quizStarted && (
                 <Button onClick={() => setQuizStarted(true)} className="bg-pink-500 hover:bg-pink-600 text-white">
                   Start Quiz ✨
