@@ -90,6 +90,7 @@ export default function LoveWebsite() {
       imageSrc: "/letter.png?height=600&width=400",
       alt: "Handwritten love letter for birthday",
     },
+  ]
 
   // Love notes
   const loveNotes = [
