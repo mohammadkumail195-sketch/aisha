@@ -83,6 +83,25 @@ export default function LoveWebsite() {
     { src: "/home.jpg?height=300&width=400", caption: "Home is wherever you are" },
   ]
 
+  // Love letter images (replace with your actual image paths)
+  const loveLetterImages = [
+    {
+      title: "A Note on Your Birthday",
+      imageSrc: "/placeholder.svg?height=600&width=400",
+      alt: "Handwritten love letter for birthday",
+    },
+    {
+      title: "Just Because I Love You",
+      imageSrc: "/placeholder.svg?height=600&width=400",
+      alt: "Typewriter style love letter",
+    },
+    {
+      title: "Our Anniversary Letter",
+      imageSrc: "/placeholder.svg?height=600&width=400",
+      alt: "Romantic anniversary love letter",
+    },
+  ]
+
   // Love notes
   const loveNotes = [
     {
