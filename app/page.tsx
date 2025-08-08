@@ -279,6 +279,39 @@ export default function LoveWebsite() {
             </Dialog>
           ))}
         </div>
+        <div className="mt-20">
+          <h2 className="text-4xl font-bold text-center text-gray-800 mb-16">Your Special Letters</h2>
+          <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {loveLetterImages.map((letter, index) => (
+              <Dialog key={index}>
+                <DialogTrigger asChild>
+                  <Card className="group cursor-pointer hover:shadow-xl transition-all transform hover:scale-105">
+                    <CardContent className="p-4 flex flex-col items-center justify-center">
+                      <img
+                        src={letter.imageSrc || "/placeholder.svg"}
+                        alt={letter.alt}
+                        className="w-full h-64 object-cover rounded-lg mb-4 group-hover:scale-105 transition-transform duration-300"
+                      />
+                      <h3 className="text-xl font-bold text-gray-800 text-center group-hover:text-pink-600 transition-colors">
+                        {letter.title}
+                      </h3>
+                      <div className="mt-2 text-center">
+                        <span className="text-pink-600 font-semibold">Open Letter ❤️</span>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </DialogTrigger>
+                <DialogContent className="max-w-4xl p-4">
+                  <h3 className="text-3xl font-bold text-gray-800 mb-6 text-center">{letter.title}</h3>
+                  <img src={letter.imageSrc || "/placeholder.svg"} alt={letter.alt} className="w-full h-auto rounded-lg" />
+                  <div className="mt-8 text-right">
+                    <span className="text-pink-600 font-semibold text-xl">With all my love ❤️</span>
+                  </div>
+                </DialogContent>
+              </Dialog>
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   )
