@@ -87,7 +87,7 @@ export default function LoveWebsite() {
   const loveLetterImages = [
     {
       title: "Love letter for you",
-      imageSrc: "/placeholder.svg?height=600&width=400",
+      imageSrc: "/letter.png?height=600&width=400",
       alt: "Handwritten love letter for birthday",
     },
 
@@ -288,7 +288,7 @@ export default function LoveWebsite() {
           ))}
         </div>
         <div className="mt-20">
-          <h2 className="text-4xl font-bold text-center text-gray-800 mb-16">Your Special Letters</h2>
+          <h2 className="text-4xl font-bold text-center text-gray-800 mb-16">Letters For you! ❤️</h2>
           <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {loveLetterImages.map((letter, index) => (
               <Dialog key={index}>
